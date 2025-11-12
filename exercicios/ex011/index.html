@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Alecive-Flatwoken-Apps-Angry-Birds.512.png" type="image/x-icon">
+    <title>Midia em HTML</title>
+</head>
+<body>
+    <h1>Imagem dinámica</h1>
+
+    <p>Tente abrir esse site em varios dispositivos diferente ou simplismente aumente ou diminua o tamanho no navegador</p>
+
+     <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto.p.png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto.m.png">
+        <img src="imagens/foto.g.png" alt="imagem flexivel">
+    </picture>  
+
+    <!-- <picture>
+        <source media="(max-width: 750px)" srcset="foto 250.jpg">
+        <source media="(max-width: 1050px)" srcset="imagens/foto 500.jpg">
+        <img src="imagens/foto 700.jpg" alt="imagem flexivel 2">
+    </picture>  -->
+
+    <h1>Reproduzindo Áudio</h1>
+    <hr>
+
+    <p>Vamos aprender reproduzir áudio em HTML</p>
+
+   <audio preload="auto" controls>
+    <source src="midia/Only me - Patrick Patrikios.mp3" type="audio/mpeg">
+    <source src="midia/Only me - Patrick Patrikios.mp3" type="audio/ogg">
+    <source src="midia/Only me - Patrick Patrikios.mp3" type="audio/wav">
+    <p>Seu navegador não suporta o elemento de áudio. <a href="midia/Only me - Patrick Patrikios.mp3" download="Only me - Patrick Patrikios.mp3" type="audio/mpeg">Clique aqui para download</a></p>
+   </audio>
+   <hr>
+
+   <audio preload="auto" controls>
+    <source src="midia/Cinema.mp3" type="audio/mpeg">
+   
+    <source src="midia/Cinema.mp3" type="audio/ogg">
+    <source src="midia/Cinema.mp3" type="audio/wav">
+    <p>Seu navegador não suporta o elemento de áudio. <a href="midia/Cinema.mp3" download="midia/Cinema.mp3" type="audio/mpeg"></a></p>
+   </audio>
+   
+   <hr> <h2>mais um áudio</h2>
+
+    <audio preload="auto" controls>
+     <source src="midia/Only me - Patrick Patrikios.mp3" type="audio/mpeg">
+    
+     <source src="midia/Only me - Patrick Patrikios.mp3" type="audio/ogg">
+     <source src="midia/Only me - Patrick Patrikios.mp3" type="audio/wav">
+     <p>Seu navegador não suporta o elemento de áudio. <a href="midia/Only me - Patrick Patrikios.mp3" download="midia/Only me - Patrick Patrikios.mp3" type="audio/mpeg"></a></p>
+
+  
+
+
+
+
+    
+</body>
+</html>
